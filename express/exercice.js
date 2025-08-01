@@ -3,9 +3,8 @@ const app = express()
 const PORT = 5000
 
 //Middleware pour lire le JSON du body (important pour les POST)
-app.use(express.json
+app.use(express.json());
 
-)
 // Les routes 
 app.get('/', (req, res) => {
     res.send("Bienvenue sur l'API Radiooooo")
