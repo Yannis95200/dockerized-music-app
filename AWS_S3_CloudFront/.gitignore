@@ -1,0 +1,4 @@
+.history
+node_modules
+.env
+AWS_S3_CloudFront/image.png
